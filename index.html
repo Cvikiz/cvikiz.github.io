@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+// Scprit By Afif JaeGer
+<html>
+	<head>
+		<title>Perbucinan Anak Remaja</title>
+	<style type="text/css">
+	h1{
+		color: ;
+		text-align: center;
+		text-decoration: blink;
+	}
+	body{
+		background-color: black;
+	}
+	.neon{
+		text-shadow: 0 0 5px #f8f8ff, 0 0 10px #f8f8ff, 0 0 20px #f8f8ff, 0 0 45px #f8f8ff, 0 0 40px #f8f8ff;
+	}
+	.gambarbucin{
+		widht: 200px;
+		height: 200px;
+		margin-left: auto; margin-right: auto; display: block;
+	}
+	.textjalan{
+		color: white;
+		font-weight: bold;
+	}
+	</style>
+	</head>
+<body>
+	<h1>[+] I LOVE YOU [+]</h1>
+	<script language="JavaScript1.2">
+function ClearError() {return true;}
+window.onerror = ClearError;
+</script>
+		<script>
+window.onload = function() {
+var h1 = document.getElementsByTagName("h1")[0],
+text = h1.innerText || h1.textContent,
+split = [], i, lit = 0, timer = null;
+for(i = 0; i < text.length; ++i) {
+split.push("<span>" + text[i] + "</span>");
+}
+h1.innerHTML = split.join("");
+split = h1.childNodes;
+
+var flicker = function() {
+lit += 0.01;
+if(lit >= 1) {
+clearInterval(timer);
+}
+for(i = 0; i < split.length; ++i) {
+if(Math.random() < lit) {
+split[i].className = "neon";
+} else {
+split[i].className = "";
+}
+}
+}
+setInterval(flicker, 100);
+}
+</script>
+<script type="text/javascript" id="DI BACA YA">alert("KLIK GAMBAR LOVENYA")</script>
+<br>
+	<br>
+<br>
+<br>
+	<br>
+	<a href="https://api.whatsapp.com/send?phone=6289608987971&text=I%20LOVE%20YOU%20TO">
+	<img class="gambarbucin" src="https://i.ibb.co/FqdYr4T/1571977623.png" alt="1571977623" border="0"></a>
+	<br>
+<br>
+<br>
+	<br>
+<br>
+<br>
+	<br>
+<br>
+<br>
+	<a class="textjalan"><marquee scrollamount="2">Just Kidding :V</marquee></a>
+</body>
+</html>
